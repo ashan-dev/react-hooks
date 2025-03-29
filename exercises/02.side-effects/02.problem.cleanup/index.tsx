@@ -38,7 +38,7 @@ function App() {
 		// 🐨 return a function which removes the popstate event listener
 		// 📜 https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener
 	}, [])
-
+//test 1 2 3
 	function handleCheck(tag: string, checked: boolean) {
 		const newWords = checked ? [...words, tag] : words.filter(w => w !== tag)
 		setQuery(newWords.filter(Boolean).join(' ').trim())
